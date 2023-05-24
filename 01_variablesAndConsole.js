@@ -59,5 +59,15 @@ console.log(today, javaScript);
 today = "Lovely!";
 console.log(today, javaScript);
 
-javaScript = "Super!";
-console.log(today, javaScript);
+// javaScript = "Super!";
+// console.log(today, javaScript);
+
+console.log ("This message is a string");
+let name = "Your Name goes here";
+console.log("Log: ", name);
+
+console.warn("This is a warning!")
+let warning = "uh oh";
+console.warn("warn: ", warning);
+
+console.error("This is an error message");
