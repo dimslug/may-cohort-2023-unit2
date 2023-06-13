@@ -52,14 +52,14 @@ function varTest() {
 
     if(true) {
         let l = 45;
-        console.log(`Var - withing IF: ${l}`); //45
+        console.log(`Let - withing IF: ${l}`); //45
     }
 
-    console.log(`Var - Outside IF: ${l}`); // 33
+    console.log(`Let - Outside IF: ${l}`); // 33
 }
 
 varTest();
-console.log(`Var - Outside Function: ${l}`); // 12
+console.log(`Let - Outside Function: ${l}`); // 12
 
 //! Hoisting
 /*
